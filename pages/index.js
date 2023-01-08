@@ -106,7 +106,7 @@ const Home = () => {
             <h2>turn me (ribhu) into anything silly or legendary. your pick.</h2>
           </div>
           <div className="prompt-container">
-            <input className="prompt-box" value={input} onChange={onChange} />
+            <input className="prompt-box" placeholder='ribhu as a 90s anime villain, 4k, highly detailed, line art' value={input} onChange={onChange} />
             <div className="prompt-buttons">
               <a 
                 className={
